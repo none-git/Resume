@@ -28,9 +28,8 @@ const Hero: React.FC = () => {
                 <span className="text-primary">creativity</span>.
               </h1>
               <p className="text-lg text-slate-400 leading-relaxed max-w-xl">
-                I'm Alex, a Full-Stack Developer specializing in building
-                exceptional digital experiences. Currently focused on building
-                accessible, human-centered products.
+                I'm None, a Full-Stack Developer specializing in building
+                exceptional digital experiences.
               </p>
             </div>
 
