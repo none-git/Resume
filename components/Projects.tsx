@@ -29,7 +29,8 @@ const projects: Project[] = [
     description:
       'A text-based RPG Telegram bot called ForgeCraft where players can adventure, explore dungeons, collect items, and battle each other. Features include a shop, market, guilds, leaderboards, and interactive inline buttons.',
     tags: ['Node.js', 'Supabase', 'Telegram'],
-    imageUrl: 'https://github.com/none-git/ForgeCraft/raw/main/forgeCraft.jpg',
+    imageUrl:
+      'https://github.com/none-git/ForgeCraft/raw/main/website/pictures/background.webp?raw=true',
     githubUrl: 'https://github.com/none-git/ForgeCraft',
     icon: 'security',
   },
@@ -84,7 +85,7 @@ const Projects: React.FC = () => {
                 <img
                   src={project.imageUrl}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4 backdrop-blur-sm">
                   <a
