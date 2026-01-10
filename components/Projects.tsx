@@ -4,9 +4,8 @@ import { Project } from '../types';
 const projects: Project[] = [
   {
     id: '1',
-    title: 'SocialNetwork',
-    description:
-      'A robust authentication and authorization service provider, designed to be easily integrated into microservices architectures.',
+    title: 'RepHub',
+    description: 'Private project',
     tags: [
       'Node.js',
       'NestJS',
