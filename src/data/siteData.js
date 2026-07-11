@@ -1,3 +1,10 @@
+export const stats = [
+  { value: 12, suffix: '', label: 'Projects Built', icon: 'rocket_launch' },
+  { value: 6, suffix: '+', label: 'Years Coding', icon: 'schedule' },
+  { value: 15, suffix: '+', label: 'Technologies', icon: 'code' },
+  { value: 100, suffix: '%', label: 'Passion', icon: 'bolt' },
+];
+
 export const skillCategories = [
   { title: 'Frontend', icon: 'web', skills: ['React', 'Next.js', 'TypeScript', 'Figma'] },
   {
